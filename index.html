@@ -12,6 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
   </head>
   <body class="homepage is-preload">
     <div id="page-wrapper">
@@ -41,7 +45,7 @@
       <section id="intro" class="wrapper style1">
         <div class="title" id="about-marker">About Me</div>
         <div class="container">
-          <p class="style2">Who am I?</p>
+          <p class="style2">Front End Web Developer</p>
           <p class="style3">
             My name is John Fraser, I am a front end developer with over 2 years
             of experience using modern front end technologies and frameworks. I
@@ -269,7 +273,7 @@
             <div class="col-6 col-12-medium">
               <!-- Contact Form -->
               <section>
-                <form method="post" action="#">
+                <form id="contact-form">
                   <div class="row gtr-50">
                     <div class="col-6 col-12-small">
                       <input
@@ -291,7 +295,7 @@
                       <textarea
                         name="message"
                         id="contact-message"
-                        placeholder="Message"
+                        placeholder="Please leave your name, message, and contact information. Thanks!"
                         rows="4"
                       ></textarea>
                     </div>
@@ -359,5 +363,10 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script
+      type="text/javascript"
+      type="module"
+      src="/assets/js/email.js"
+    ></script>
   </body>
 </html>

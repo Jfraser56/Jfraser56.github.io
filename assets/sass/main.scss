@@ -720,14 +720,14 @@ ul.actions {
   }
 
   h3 {
-    color: #e97770 !important;
+    color: #1b71a3 !important;
     font-size: 1.15em;
     letter-spacing: 0.05em;
 
     &:before {
       display: block;
       color: #fff;
-      background: #2f333b url("images/overlay.png");
+      background: #1b71a3 url("images/overlay.png");
       border-radius: 100%;
       display: flex;
       justify-content: center;
@@ -871,11 +871,11 @@ ul.actions {
   }
 
   &.style1 {
-    background: #727272 url("images/overlay.png");
-    color: #eee;
+    background: #999 url("images/overlay.png");
+    color: #fff;
 
     .title {
-      background: #727272 url("images/overlay.png");
+      background: #999 url("images/overlay.png");
       color: #fff;
     }
 
